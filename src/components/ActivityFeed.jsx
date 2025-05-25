@@ -15,7 +15,7 @@ const colors = ['bg-cyan-400', 'bg-gray-300', 'bg-indigo-500'];
 
 const ActivityFeed = () => {
     return (
-        <div className="bg-[#f9fafe] shadow-sm rounded-xl px-6 max-[556px]:mt-1 py-4 w-full max-w-3xl">
+        <div className="bg-[#f9fafe]  shadow-sm rounded-xl px-6 max-[556px]:mt-1 py-4 w-full max-w-3xl">
             <div className="flex justify-between items-center mb-4">
                 <h2 className="text-base font-semibold text-[#2a2a6a]">Activity</h2>
                 <p className="text-sm text-gray-400 max-[494px]:text-xs">3 appointment on this week</p>
