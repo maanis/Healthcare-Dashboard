@@ -9,8 +9,8 @@ const DashboardOverview = ({ healthData, setIsSidebarOpen }) => {
     return (
         <div className='px-12 max-[1219px]:px-5 max-[900px]:px-10 max-[600px]:px-0 w-[48%] max-[900px]:w-full'>
             <div className="relative max-[600px]:justify-between flex max-[600px]:bg-zinc-300/35 max-[600px]:fixed max-[600px]:shadow-xl z-50 max-[600px]:py-4 backdrop-blur-sm items-center gap-4 w-full max-[768px]:py-5 py-10 max-[900px]:py-7 max-[600px]:px-5">
-                <Menu onClick={() => setIsSidebarOpen(true)} className='max-[900px]:block hidden' />
-                <Search className="absolute left-3 max-[900px]:hidden max-[900px]:left-12 top-1/2 transform -translate-y-1/2 text-gray-400 w-4 h-4" />
+                <Menu onClick={() => setIsSidebarOpen(true)} className='max-[1100px]:block hidden' />
+                <Search className="absolute left-3 max-[1100px]:left-12 max-[900px]:hidden max-[900px]:left-12 top-1/2 transform -translate-y-1/2 text-gray-400 w-4 h-4" />
                 <Input
                     placeholder="Search"
                     className="pl-10 w-full max-[900px]:ml-auto max-[600px]:hidden max-[900px]:w-72 bg-gray-50 border border-zinc-300  outline-none"

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Sidebar = ({ menuItems, isSidebarOpen }) => {
     return (
-        <aside className={`w-60 max-[1100px]:fixed z-[60] bg-blue-50/80 max-[900px]:bg-white max-[900px]:w-[34%] max-[768px]:w-[48%] max-[556px]:w-[60%] max-[418px]:w-[74%] max-[900px]:shadow-lg  min-h-screen transition-transform duration-300 ease-in-out ${isSidebarOpen ? 'translate-x-0' : '-translate-x-full'}`}>
+        <aside className={`w-60 max-[1100px]:fixed z-[60] bg-blue-50/80 max-[1100px]:bg-white max-[1100px]:w-[34%] max-[768px]:w-[48%] max-[556px]:w-[60%] max-[418px]:w-[74%] max-[900px]:shadow-lg  min-h-screen transition-transform duration-300 ease-in-out ${isSidebarOpen ? 'translate-x-0' : '-translate-x-full'}`}>
             <h1 className="text-2xl font-bold px-9 py-10 max-[556px]:py-6 max-[556px]:px-6">
                 <span className="text-cyan-500">Health</span>
                 <span className="text-gray-900">care.</span>
